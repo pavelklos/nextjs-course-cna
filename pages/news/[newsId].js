@@ -1,10 +1,10 @@
-// DOMAIN/news/something-important
+// DOMAIN/news/[newsId]
 // rafce
 
-const SomethingImportant = () => {
+const NewsDetailPage = () => {
   return (
     <section>
-      <h1>The Something Important Page</h1>
+      <h1>The News Detail Page</h1>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis odio
         qui voluptate nihil ducimus amet aliquam earum unde animi at illum
@@ -17,4 +17,4 @@ const SomethingImportant = () => {
   );
 };
 
-export default SomethingImportant;
+export default NewsDetailPage;
