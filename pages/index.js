@@ -1,5 +1,6 @@
 // DOMAIN/ = ROOT PAGE
 // rafce
+import Link from "next/link";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,21 @@ const HomePage = () => {
         atque odio ex eveniet! Blanditiis cumque dolorem deleniti quidem
         expedita?
       </p>
+      <ul>
+        <li>
+          {/* <a href='/news/nextjs-is-a-great-framework'>NextJS Is A Great Framework</a> */}
+          <Link href='/news/nextjs-is-a-great-framework'>
+            NextJS Is A Great Framework
+          </Link>
+        </li>
+        <li>
+          <Link href='/news/something-else'>
+            <a target='_blank' rel='noreferrer'>
+              Something Else
+            </a>
+          </Link>
+        </li>
+      </ul>
     </section>
   );
 };
