@@ -1,3 +1,4 @@
+// DOMAIN/ = ROOT PAGE
 // rafce
 
 const HomePage = () => {

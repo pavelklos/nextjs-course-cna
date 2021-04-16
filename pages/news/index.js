@@ -1,3 +1,4 @@
+// DOMAIN/news
 // rafce
 
 const NewsPage = () => {
